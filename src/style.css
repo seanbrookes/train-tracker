@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, Arial, sans-serif;
+  font-size: 14px;
+  background: #f4f4f4;
+  color: #111;
+}
+
+#app-nav {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: #1a1a2e;
+  padding: 0 16px;
+  height: 44px;
+}
+
+.nav-brand {
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  margin-right: 16px;
+}
+
+#app-nav a {
+  color: #aac4ff;
+  text-decoration: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+#app-nav a.router-link-active {
+  background: #fff2;
+  color: #fff;
+}
+
+#app-main {
+  padding: 16px;
+}

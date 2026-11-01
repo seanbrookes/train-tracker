@@ -1,0 +1,36 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+.env
+*.db
+*.db-shm
+*.db-wal
+
+# Captured media (raw video + frames) — large, personal
+storage/
+
+# Claude Code local settings (machine-specific)
+.claude/settings.local.json
+
+# Editor directories and files
+.vscode/
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# Trained OCR model + source data downloads (binary)
+eng.traineddata
+server/data/gscd-download.zip
